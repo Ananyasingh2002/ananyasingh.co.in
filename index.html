@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"> -->
+    <!-- <link rel="manifest" href="img/site.webmanifest"> -->
+    <!-- <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <!-- <meta name="msapplication-TileColor" content="#da532c"> -->
+    <!-- <meta name="theme-color" content="#ffffff"> -->
+    <!-- <meta name="description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ui8">
+    <meta name="twitter:title" content="Folio Designer">
+    <meta name="twitter:description" content="Production-ready Portfolio and Case Study Template for Visual Designers">
+    <meta name="twitter:creator" content="@ui8">
+    <meta name="twitter:image" content="https://ui8-folio.herokuapp.com/img/twitter-card.jpg"> -->
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:type" content="Portfolio">
+    <!-- <meta property="og:url" content="https://ui8.net/ui8/products/folio-designer">
+    <meta property="og:image" content="https://ui8-folio.herokuapp.com/img/fb-og-image.jpg"> -->
+    <meta property="og:description" content="Personal Portfolio">
+    <meta property="og:site_name" content="Portfolio">
+    <meta property="fb:admins" content="132951670226590">
+    <link rel="stylesheet" media="all" href="css/app.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+        if (screen.width < 375) {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        } else {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <div class="header js-header" id="header">
+          <div class="header__center center"><a class="header__logo" href="index.html"><img class="header__pic" src="img/boxes.svg" alt=""/></a>
+            <div class="header__social header__social_main"><a class="header__link" href="https://www.linkedin.com/in/ananya-singh-29b304224/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>LinkedIn</a><a class="header__link" href="https://github.com/Ananyasingh2002" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>Github</a></div>
+            <button class="header__burger js-header-burger"></button>
+          </div>
+          <div class="header__wrapper js-header-wrapper">
+            <div class="header__preview"><a class="header__logo" href="index.html"><img class="header__pic" src="img/logo-white.svg" alt=""/></a>
+              <div class="header__img"><img class="header__pic" src="img/content/bg-header.png" alt=""/></div>
+            </div>
+            <div class="header__center center">
+              <div class="header__contacts"><a class="header__line" href="mailto:hello@ui8.net">
+                  <div class="header__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15">
+                      <path fill-rule="evenodd" d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z" fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="header__text">singh.ananya4458@gmail.com</div></a>
+                <div class="header__line">
+                  <div class="header__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                      <path fill-rule="evenodd" d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z" fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="header__text"> 
+                    <p>Pune, Maharashtra</p>
+                  </div>
+                </div><a class="header__line" href="tel:+441236547890">
+                  <div class="header__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                      <path fill-rule="evenodd" d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z" fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="header__text">+91 8851797261 </div></a>
+              </div>
+              <nav class="header__nav"><a class="header__item" href="index.html"><span>About</span></a><a class="header__item" href="#cases"><span>Project</span></a><a class="header__item" href="#resume"><span>Resume</span></a><a class="header__item" href="#con"><span>Contact</span></a></nav>
+              <div class="header__social header__social_inner"><a class="header__link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>LinkedIn</a><a class="header__link" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>Instagram</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="main__bg"><img class="main__pic" src="img/content/bg-main.jpg" alt=""></div>
+        <div class="main__center center">
+          <div class="main__wrap">
+            <div class="main__stage stage" data-aos="transform">Ananya singh</div>
+            <h1 class="main__title title h1"><span data-aos="transform" data-aos-delay="150">Hello, my</span><span data-aos="transform" data-aos-delay="300">name's Ananya singh.</span><span data-aos="transform" data-aos-delay="450">I'm a</span><span data-aos="transform" data-aos-delay="600">Developer&lt;/&gt;.</span></h1><a class="scroll js-scroll" href="#details" data-aos="transform">
+              <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
+              <div class="scroll__text">Scroll down</div></a>
+          </div>
+        </div>
+        <div class="main__view" data-aos>
+          <div class="main__preview"><img class="main__pic" src="img/content/main-pic-6.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="2.5" data-orientation="up" src="img/content/main-pic-1.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/content/main-pic-2.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/content/main-pic-3.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic" src="img/content/main-pic-4.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="4.5" data-orientation="up" src="img/content/main-pic-5.png" alt=""></div>
+          <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/content/main-pic-7.png" alt=""></div>
+        </div>
+        <div class="main__figures">
+          <div class="main__figure" data-aos="animation-translate-y"><img class="main__pic js-parallax" data-scale="2.2" data-orientation="down" src="img/content/figure-1.png" alt=""></div>
+          <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="200"><img class="main__pic js-parallax" data-scale="2.2" data-orientation="up" src="img/content/figure-2.png" alt=""></div>
+          <div class="main__figure" data-aos="animation-translate-y" data-aos-delay="400"><img class="main__pic" src="img/content/figure-3.png" alt=""></div>
+        </div>
+      </div>
+      <div class="details" id="details">
+        <div class="details__center center"  id="resume">
+          <div class="details__head" data-aos="animation-scale-y">
+            <div class="details__stage stage">About me</div>
+            <h3 class="details__info h3">A second-year Computer science undergraduate student at Bharati Vidyapeeth Deemed to be University with an interest in web development, Data structures and Algorithms(C++), and Python. Seeking a summer internship to apply my experience assisting a company's branding needs through Data structure and algorithm, web development, collaboration and corporate relations.</h3>
+          </div>
+          <!-- <h2 class="details__title" data-aos="animation-scale-y">Think. Make. <br>Solve. </h2> -->
+          <div class="details__btn" data-aos="animation-translate-y">
+            <a href="Ananya singh.pdf" target="_blank"><button class="btn btn_purple"><span class="btn__text">Resume</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16">
+                <path fill-rule="evenodd" d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z" fill="#fff"></path>
+              </svg>
+            </button></a>
+          </div>
+          <div class="details__container">
+            <div class="details__slider owl-carousel js-slider-details">
+              <div class="details__item">
+                <div class="details__preview details__preview_cursor" data-aos="animation-scale">
+                  <div class="details__img"><img class="details__pic" src="" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y">Language known</h5>
+                <div class="details__text" data-aos="animation-scale-y"><ul class="list">
+                  <li>C++ and Java</li>
+                  <li>Python</li>
+                  <li>HTML, CSS and Javascript</li>
+                </ul></div>
+                <!-- <div class="details__btn" data-aos="animation-scale-y">
+                  <button class="btn btn_dark">Find out more </button>
+                </div> -->
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_hand" data-aos="animation-scale" data-aos-delay="150">
+                  <div class="details__img"><img class="details__pic" src="" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="150">Web Development</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="150"><ul class="list">
+                  <li>HTML, CSS and Javascript</li>
+                  <li>React.JS and Angular.JS</li>
+                  <li>Node.JS and Express.JS</li>
+                </ul></div>
+                <!-- <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300">
+                <button class="btn btn_dark">Find out more </button>
+                </div> -->
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_color" data-aos="animation-scale" data-aos-delay="300">
+                  <div class="details__img"><img class="details__pic" src="" alt=""></div>
+                </div>
+                <h5 class="details__category h5" data-aos="animation-scale-y" data-aos-delay="300">Database</h5>
+                <div class="details__text" data-aos="animation-scale-y" data-aos-delay="300"><ul class="list">
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Excel</li>
+                </ul></div>
+                <!-- <div class="details__btn" data-aos="animation-scale-y" data-aos-delay="300">
+                  <button class="btn btn_dark">Find out more </button>
+                </div> -->
+               </div>
+              <!-- <div class="details__item">
+                <div class="details__preview details__preview_cursor">
+                  <div class="details__img"><img class="details__pic" src="img/content/cursor.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5">User Interface</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div>
+                <button class="details__btn btn btn_dark">Find out more </button>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_hand">
+                  <div class="details__img"><img class="details__pic" src="img/content/hand.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5">User Experience</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div>
+                <button class="details__btn btn btn_dark">Find out more</button>
+              </div>
+              <div class="details__item">
+                <div class="details__preview details__preview_color">
+                  <div class="details__img"><img class="details__pic" src="img/content/color-picker.png" alt=""></div>
+                </div>
+                <h5 class="details__category h5">UI Design Kit</h5>
+                <div class="details__text">We have got quite a few already made templates for better project management that you can use now.</div>
+                <button class="details__btn btn btn_dark">Find out more</button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="details__figures">
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="down" src="img/content/figure-1.png" alt=""></div>
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="2" data-orientation="up" src="img/content/figure-2.png" alt=""></div>
+          <div class="details__figure"><img class="details__pic js-parallax" data-scale="1.2" data-orientation="up" src="img/content/figure-3.png" alt=""></div>
+          </div>
+        <!-- </div><a class="details__contact" href="#">Contact me</a> -->
+      </div>
+      <div class="work">
+        <div class="work__circles"></div>
+        <div class="work__center center">
+          <div class="work__wrap">
+            <!-- <div class="work__stage stage stage_pink" data-aos="animation-scale-y">A bit more about me</div> -->
+            <h2 class="work__title title h1" data-aos="animation-scale-y" data-aos-delay="150">Work Experience</h2>
+            <div class="work__text" data-aos="animation-scale-y" data-aos-delay="300"><ul>
+              <li>Entrepreneurship Development Cell, BV(DU)COEP | Director</li>
+              <li>GDSC(Google Developer Student Club) | Member</li>
+              <li>Volunteer at Google Cloud Community Day(CCD-2022) | Member</li>
+            </ul></div><a class="scroll js-scroll" data-aos="animation-scale-y" href="#cases">
+              <div class="scroll__icon"><img class="scroll__pic" src="img/scroll.svg" alt=""></div>
+              <div class="scroll__text">Scroll down</div></a>
+          </div>
+        </div>
+        <div class="work__preview"><img class="work__pic js-parallax" data-scale="2" data-orientation="down" src="img/content/work-cube.png" alt=""></div>
+        <div class="work__figures" data-aos>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/content/work-cube-1.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.5" data-orientation="up left" src="img/content/work-cube-2.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.3" data-orientation="up right" src="img/content/work-cube-3.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic" src="img/content/work-cube-4.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.1" data-orientation="left" src="img/content/work-cube-5.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.2" data-orientation="right" src="img/content/work-cube-6.png" alt=""></div>
+          <div class="work__figure"><img class="work__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/content/work-cube-7.png" alt=""></div>
+        </div>
+      </div>
+      <div class="wrapper wrapper_gradient">
+        <div class="cases cases_main" id="cases">
+          <div class="cases__center center">
+            <div class="cases__stage stage" data-aos="animation-scale-y">Projects</div>
+            <h2 class="cases__title h1" data-aos="animation-scale-y" data-aos-delay="150">Look at My <br>Projects.</h2>
+            <div class="cases__nav" data-aos="animation-scale-y" data-aos-delay="300"><a class="cases__link active" href="#">Website</a></div>
+            <div class="cases__list js-owl" data-items-mobile-portrait="1" data-items-mobile-album="1" data-autoheight><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="#">
+                              <div class="cases__preview"><img class="cases__pic" src="img/content/Sites-to-Learn-Virtual-Stock-Trading-in-India-Cover-Image (1).jpg" alt="">
+                                <div class="cases__box">Visit <br>Website</div>
+                              </div>
+                              <div class="cases__body">
+                                <h4 class="cases__info h4">Trading Demo Account</h4>
+                                <div class="cases__text">Designed and developed responsive website layouts using HTML, CSS, JavaScript, and other web development technologies.</div>
+                              </div></a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="#">
+                              <div class="cases__preview"><img class="cases__pic" src="img/content/Banner-37.jpg" alt="">
+                                <div class="cases__box">Visit <br>Website</div>
+                              </div>
+                              <div class="cases__body">
+                                <h4 class="cases__info h4"> Personal Finance Manager</h4>
+                                <div class="cases__text">By tracking your expenses and income, you gain a better understanding of your financial situation.</div>
+                              </div></a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="200" href="#">
+                              <div class="cases__preview"><img class="cases__pic" src="img/content/internet-web-icon-in-trendy-flat-style-isolated-on-white-background-website-symbol-for-your-website-design-logo-app-ui-illustration-free-vector.png" alt="">
+                                <div class="cases__box">Will Upload <br>Soon</div>
+                              </div>
+                              <div class="cases__body">
+                                <h4 class="cases__info h4">Will Upload Soon..</h4>
+                                <div class="cases__text"></div>
+                              </div></a><a class="cases__item" data-aos="animation-translate-y" data-aos-delay="" href="#">
+                              <div class="cases__preview"><img class="cases__pic" src="img/content/internet-web-icon-in-trendy-flat-style-isolated-on-white-background-website-symbol-for-your-website-design-logo-app-ui-illustration-free-vector.png" alt="">
+                                <div class="cases__box">Will Upload <br>Soon</div>
+                              </div>
+                              <div class="cases__body">
+                                <h4 class="cases__info h4">Will Upload Soon..</h4>
+                                <div class="cases__text"></div>
+                              </div></a>
+                             
+            </div>
+          </div>
+          <div class="cases__figures">
+            <div class="cases__figure"><img class="cases__pic js-parallax" data-scale="2" data-orientation="down" src="img/content/figure-2.png" alt=""></div>
+            <div class="cases__figure"><img class="cases__pic js-parallax" data-scale="1.8" data-orientation="down" src="img/content/figure-3.png" alt=""></div>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review__center center">
+            
+            <h2 class="review__title title h1" data-aos="animation-scale-y" data-aos-delay="200">Awards & Achievements</h2>
+            <div class="review__container" data-aos="animation-translate-y" data-aos-delay="400">
+              <div class="review__slider owl-carousel js-slider-review">
+                <div class="review__item">
+                  <div class="review__text">“ Articulate in the domain of Corporate Relations and Technical (2021- Present). ”</div>
+                  <div class="review__author">
+                    
+                    <div class="review__details">
+                      <div class="review__man h5">Corporate Relations</div>
+                      <div class="review__company"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ Working on the skills of Cryptocurrency, Stock training and iFOREX. ”</div>
+                  <div class="review__author">
+                    
+                    <div class="review__details">
+                      <div class="review__man h5">Stock Market</div>
+                      <div class="review__company"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="review__item">
+                  <div class="review__text">“ Certificate of Completion - NPTEL SWAYAM, COURSERA and UDEMY. ”</div>
+                  <div class="review__author">
+                    
+                    <div class="review__details">
+                      <div class="review__man h5">Courses</div>
+                      <div class="review__company"><a href="https://www.udemy.com/certificate/UC-f3dd12fb-7082-4497-94f4-6f5a2e48fd7b/" target="_blank">C++ Certificate</a></div>
+                      <div class="review__company"><a href="https://www.udemy.com/certificate/UC-d2252480-cca2-4798-853d-5113281f45e2/" target="_blank">Python Certificate</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="review__bg">
+            <div class="review__preview"><img class="review__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/content/review-cube.png" alt=""></div>
+            <div class="review__preview"><img class="review__pic" src="img/content/review-cube.png" alt=""></div>
+          </div>
+        </div>
+        <div class="wrapper wrapper_dark">
+          <div class="contacts" id="con">
+            <div class="contacts__center center">
+              <div class="contacts__container">
+                <div class="contacts__wrap">
+                  <div class="contacts__stage stage" data-aos="animation-scale-y">Bonjour 👋</div>
+                  <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">Let’s Connect <br>Together.</h2>
+                  <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">Looking forward to hearing from you</div>
+                </div>
+                <div class="contacts__row">
+                  <div class="contacts__details" data-aos="animation-translate-y"><a class="contacts__line" href="mailto:hello@ui8.net">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15">
+                          <path fill-rule="evenodd" d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z" fill="#4c40f7"></path>
+                        </svg>
+                      </div>
+                      <div class="contacts__text">singh.ananya4458@gmail.com</div></a>
+                    <div class="contacts__line">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                          <path fill-rule="evenodd" d="M9.273.85a.71.71 0 0 0-.901 0L.55 7.25a.71.71 0 0 0 .901 1.101l7.372-6.032 5.85 4.786a.71.71 0 1 0 .901-1.101L9.273.85zM3.845 9.222a.71.71 0 1 0-1.422 0v7.111a.71.71 0 0 0 .711.711h6.4a.71.71 0 1 0 0-1.422H3.845v-6.4zm9.932 0a2.04 2.04 0 0 0-2.11 2.008c.001.243.112.6.358 1.053.239.44.567.901.908 1.328l.867.996.867-.996c.341-.427.669-.887.908-1.328.246-.453.357-.81.358-1.053a2.04 2.04 0 0 0-2.11-2.008h-.047zm2.868 2.004h.711c0 .599-.245 1.21-.531 1.736-.294.542-.678 1.075-1.047 1.537l-1.018 1.163-.336.344-.096.095-.027.026-.007.007-.003.003-.491-.514-.491.514-.003-.003-.007-.007-.026-.026-.096-.095-.336-.344-1.017-1.163c-.37-.462-.753-.995-1.047-1.537-.286-.526-.531-1.138-.531-1.736v-.01c.012-.931.399-1.817 1.072-2.46.668-.637 1.561-.981 2.483-.957.922-.024 1.816.32 2.483.957.673.643 1.06 1.529 1.072 2.46l-.711.01zm-3.335 4.911c0 0 0 0 .491-.514l.491.514a.71.71 0 0 1-.982 0zm.491-4.07a.71.71 0 1 0 0-1.422.71.71 0 1 0 0 1.422z" fill="#4c40f7"></path>
+                        </svg>
+                      </div>
+                      <div class="contacts__text"> 
+                        <p>Pune, Maharashtra</p>
+                      </div>
+                    </div><a class="contacts__line" href="tel:+441236547890">
+                      <div class="contacts__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                          <path fill-rule="evenodd" d="M6.689 2.978a.71.71 0 0 1 .711-.711h7.111a.71.71 0 0 1 .711.711v4.267a.71.71 0 0 1-.711.711H8.822a.71.71 0 0 0-.318.075l-1.815.908V2.978zM7.4.844c-1.178 0-2.133.955-2.133 2.133v7.111a.71.71 0 0 0 1.029.636L8.99 9.378h5.521c1.178 0 2.133-.955 2.133-2.133V2.978c0-1.178-.955-2.133-2.133-2.133H7.4zM2.422 2.267C1.244 2.267.289 3.222.289 4.4v11.378c0 1.178.955 2.133 2.133 2.133h7.822c1.178 0 2.133-.955 2.133-2.133V10.8a.71.71 0 1 0-1.422 0v4.978a.71.71 0 0 1-.711.711H2.422a.71.71 0 0 1-.711-.711V4.4a.71.71 0 0 1 .711-.711h1.422a.71.71 0 1 0 0-1.422H2.422z" fill="#4c40f7"></path>
+                        </svg>
+                      </div>
+                      <div class="contacts__text">+91 8851797261</div></a>
+                  </div>
+                  <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200" action="https://formsubmit.co/474fa8d792022e2145fe2992875783d7" method="POST">
+                    <div class="contacts__field field">
+                      <div class="field__wrap">
+                        <input class="field__input" type="text" name="name" placeholder="Name"/>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" fill="none" viewBox="0 0 17 18">
+                            <path fill-rule="evenodd" d="M8.5.875a4.5 4.5 0 0 0-4.5 4.5v2a4.5 4.5 0 1 0 9 0v-2a4.5 4.5 0 0 0-4.5-4.5zM6 5.375a2.5 2.5 0 1 1 5 0v2a2.5 2.5 0 1 1-5 0v-2zM3.547 12.25a1 1 0 0 0-.969-1.75A5 5 0 0 0 0 14.875v2a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1v-2a5 5 0 0 0-2.578-4.375 1 1 0 1 0-.969 1.75A3 3 0 0 1 15 14.875v1H2v-1a3 3 0 0 1 1.547-2.625z" fill="#111029"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts__field field">
+                      <div class="field__wrap">
+                        <input class="field__input" type="email" name="email" id="mail" placeholder="Email"/>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="none" viewBox="0 0 17 17">
+                            <path fill-rule="evenodd" d="M16.707.668a1 1 0 0 1 .238 1.033l-5 14.5a1 1 0 0 1-1.853.093l-3-6.5a1 1 0 0 1 .201-1.126l3-3a1 1 0 0 1 1.414 1.414L9.2 9.589l1.665 3.608 3.52-10.208-10.207 3.52 2.223 1.026a1 1 0 1 1-.838 1.816L1.081 7.283a1 1 0 0 1 .093-1.853l14.5-5a1 1 0 0 1 1.033.238z" fill="#4c40f7"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="contacts__field field">
+                      <div class="field__wrap">
+                        <select class="field__select" name="question">
+                          <option value="">Select</option>
+                          <option value="">Select</option>
+                          <option value="">Select</option>
+                          <option value="">Select</option>
+                        </select>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" fill="none" viewBox="0 0 12 18">
+                            <path fill-rule="evenodd" d="M6.664 1.128a1 1 0 0 0-1.329 0l-4.5 4a1 1 0 0 0 1.329 1.495L6 3.213l3.836 3.409a1 1 0 1 0 1.329-1.495l-4.5-4zm-4.5 11a1 1 0 1 0-1.329 1.495l4.5 4a1 1 0 0 0 1.329 0l4.5-4a1 1 0 0 0-1.329-1.495L6 15.537l-3.836-3.41z" fill="#111029"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div class="contacts__field field field_textarea">
+                      <div class="field__wrap">
+                        <textarea class="field__textarea" name="message" placeholder="Message"></textarea>
+                        <div class="field__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 18 18">
+                            <path fill-rule="evenodd" d="M.5 2.875a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3.532l-2.2 2.64a1 1 0 0 1-1.536 0l-2.2-2.64H2.5a2 2 0 0 1-2-2v-10zm15 0h-13v10h4a1 1 0 0 1 .768.36L9 15.313l1.732-2.078a1 1 0 0 1 .768-.36h4v-10zm-12 3a1 1 0 0 1 1-1h9a1 1 0 1 1 0 2h-9a1 1 0 0 1-1-1zm1 3a1 1 0 1 0 0 2h9a1 1 0 1 0 0-2h-9z" fill="#111029"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="contacts__btn">
+                      <button class="btn btn_purple"><span class="btn__text">Let’s Talk</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" fill="none" viewBox="0 0 22 16">
+                          <path fill-rule="evenodd" d="M14.707.293a1 1 0 0 0-1.414 0 1 1 0 0 0 0 1.414L18.586 7H1a1 1 0 1 0 0 2h17.586l-5.293 5.293a1 1 0 0 0 1.414 1.414l7-7c.183-.183.28-.419.292-.659L22 8m-.076-.383c-.049-.118-.121-.228-.217-.324l-7-7m7.217 7.324c.048.115.075.241.076.374z" fill="#fff"></path>
+                        </svg>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="contacts__category h5">Let’s connect</div>
+                <div class="contacts__social">
+                  <div class="contacts__box" data-aos="animation-translate-y"><a class="contacts__link" href="https://www.instagram.com/_neutrinos__/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>
+                      <div class="contacts__text">Instagram</div></a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150"><a class="contacts__link" href="https://www.linkedin.com/in/ananya-singh-29b304224/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                    </svg>
+                      <div class="contacts__text">LinkedIn</div></a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="300"><a class="contacts__link" href="https://github.com/Ananyasingh2002" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                      <div class="contacts__text">Github</div></a></div>
+                  <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450"><a class="contacts__link" href="https://twitter.com/ananyasingh445" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>
+                      <div class="contacts__text">Twitter</div></a></div>
+                </div>
+                <div class="figures">
+                  <div class="figures__preview"><img class="figures__pic" src="img/content/figures-1.png" alt=""/></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/content/figures-2.png" alt=""/></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/content/figures-3.png" alt=""/></div>
+                  <div class="figures__preview"><img class="figures__pic" src="img/content/figures-4.png" alt=""/></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2.3" data-orientation="down" src="img/content/figures-5.png" alt=""/></div>
+                  <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2" data-orientation="up" src="img/content/figures-6.png" alt=""/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer__center center">
+              <div class="footer__body"><a class="footer__logo" href="index.html"><img class="footer__pic" src="img/logo-empty.svg" alt=""/></a>
+                <div class="footer__wrap">
+                  <div class="footer__title h1">You only have one chance to make a first impression.</div>
+                  <div class="footer__info h4">Let’s make it an amazing one.</div>
+                </div>
+                <div class="footer__menu"><a class="footer__link" href="#">About Me</a><a class="footer__link" href="#con">Contact</a><a class="footer__link" href="#cases">Projects</a><a class="footer__link" href="https://github.com/Ananyasingh2002" target="_blank">Github</a><a class="footer__link" href="https://www.linkedin.com/in/ananya-singh-29b304224/" target="_blank">LinkedIn</a><a class="footer__link" href="https://www.instagram.com/_neutrinos__/" target="_blank">Instagram</a></div>
+              </div>
+              <div class="footer__bottom">
+                <div class="footer__copyright">©Copyright by Ananya singh</div><a class="footer__scroll js-scroll" href="#header">Back to top</a>
+              </div>
+            </div>
+            <div class="footer__bg">
+              <div class="footer__preview"><img class="footer__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/content/footer-cube-1.png" alt=""/></div>
+              <div class="footer__preview"><img class="footer__pic js-parallax" data-scale="1.8" data-orientation="up" src="img/content/footer-cube-1.png" alt=""/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor"></div>
+    </div>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/lib/aos.js"></script>
+    <script src="js/lib/simpleParallax.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  </body>
+</html>
