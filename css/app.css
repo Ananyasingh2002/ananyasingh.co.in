@@ -78,6 +78,14 @@ a,
 button {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+  .details__info li{
+    list-style-type: disc;
+    position: relative;
+    left: 40px;
+  }
+  .details__head h3{
+    font-size: 25px;
+  }
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
