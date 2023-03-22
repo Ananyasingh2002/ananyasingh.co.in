@@ -2558,7 +2558,7 @@ a.btn {
         margin-bottom: 24px; } }
     .details__preview_cursor {
       /* background: #FFD301; */
-      background: url('/Personal portfolio/img/c.png');
+      background: url('..///../img/c.png');
       background-size: cover; 
      }
       .details__preview_cursor .details__img {
@@ -2575,7 +2575,7 @@ a.btn {
             width: 168px; } }
     .details__preview_hand {
       /* background: #4C40F7; */
-      background: url('/Personal portfolio/img/1_wcEYa9AjnMZxXAau2iuhYw.png');
+      background: url('..///../img/1_wcEYa9AjnMZxXAau2iuhYw.png');
       background-size: cover;
         }
       .details__preview_hand .details__img {
@@ -2593,7 +2593,7 @@ a.btn {
             width: 100px; } }
     .details__preview_color {
       /* background: #FFBDBD;  */
-      background: url('/Personal portfolio/img/database-4941301__340.png');
+      background: url('..///../img/database-4941301__340.png');
       background-size: cover;
     }
       .details__preview_color .details__img {
