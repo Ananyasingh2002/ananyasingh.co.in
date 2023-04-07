@@ -2395,7 +2395,7 @@ a.btn {
     height: 80px;
     margin-right: 24px;
     border-radius: 50%;
-    background: #fff;
+    /* background:  #fff; */
     -webkit-box-shadow: 0 5px 20px rgba(17, 16, 41, 0.05);
             box-shadow: 0 5px 20px rgba(17, 16, 41, 0.05);
     font-size: 0;
