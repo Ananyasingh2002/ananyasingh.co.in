@@ -94,7 +94,7 @@ button {
 #preloader{
   position: fixed;
   background-color: #fff;
-  background-image: url('Double\ Ring-1s-200px.gif');
+  background-image: url('../Double\ Ring-1s-200px.gif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 10%;
