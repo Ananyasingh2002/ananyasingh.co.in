@@ -5035,6 +5035,8 @@ body:not(.touch-device) .owl-item:hover .details__preview {
     @media only screen and (max-width: 767px) {
       .details__preview_hand1 .details__img {
         width: 100px; } }
+        
+
 .details__preview_color1 {
   background: #FFBDBD; 
   background: url('../img/3.jpg');
@@ -5051,6 +5053,68 @@ body:not(.touch-device) .owl-item:hover .details__preview {
         width: 155px; } }
     @media only screen and (max-width: 767px) {
       .details__preview_color1 .details__img {
+        width: 175px; } }
+
+
+
+
+
+
+
+
+.details__preview_cursor2 {
+  background: #FFD301;
+  background: url('../img/1682972482444.jpeg');
+  background-size: cover; 
+ }
+  .details__preview_cursor2 .details__img {
+    top: 15px;
+    right: -22px;
+    width: 209px; }
+    @media only screen and (max-width: 1279px) {
+      .details__preview_cursor2 .details__img {
+        top: 10px;
+        right: -15px;
+        width: 148px; } }
+    @media only screen and (max-width: 767px) {
+      .details__preview_cursor2 .details__img {
+        width: 168px; } }
+.details__preview_hand2 {
+  background: #4C40F7;
+  background: url('../img/1682972480843.jpeg');
+  background-size: cover;
+    }
+  .details__preview_hand2 .details__img {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 124px; }
+    @media only screen and (max-width: 1279px) {
+      .details__preview_hand2 .details__img {
+        width: 90px; } }
+    @media only screen and (max-width: 767px) {
+      .details__preview_hand2 .details__img {
+        width: 100px; } }
+        
+
+.details__preview_color2 {
+  background: #FFBDBD; 
+  background: url('../img/1682972482352.jpeg');
+  background-size: cover;
+}
+  .details__preview_color2 .details__img {
+    top: 22px;
+    right: -5px;
+    width: 248px; }
+    @media only screen and (max-width: 1279px) {
+      .details__preview_color2 .details__img {
+        top: 15px;
+        right: 0;
+        width: 155px; } }
+    @media only screen and (max-width: 767px) {
+      .details__preview_color2 .details__img {
         width: 175px; } }
 
 
