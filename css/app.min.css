@@ -5064,7 +5064,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 
 .details__preview_cursor2 {
   background: #FFD301;
-  background: url('../img/1682972482444.jpeg');
+  background: url('../img/1682972482444.jpg');
   background-size: cover; 
  }
   .details__preview_cursor2 .details__img {
@@ -5081,7 +5081,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
         width: 168px; } }
 .details__preview_hand2 {
   background: #4C40F7;
-  background: url('../img/1682972480843.jpeg');
+  background: url('../img/1682972480843.jpg');
   background-size: cover;
     }
   .details__preview_hand2 .details__img {
@@ -5101,7 +5101,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
 
 .details__preview_color2 {
   background: #FFBDBD; 
-  background: url('../img/1682972482352.jpeg');
+  background: url('../img/1682972482352.jpg');
   background-size: cover;
 }
   .details__preview_color2 .details__img {
